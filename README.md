@@ -17,11 +17,17 @@ Copy `hippo-lib.dll` into the same folder and run the executable:
 ```
 C:\hippo-license-demo-win32\HippoLicense\Debug>DemoApp.exe
 Your gCode is: 2473
-Please enter OTP: 630354
-License count: 12
+Please enter OTP:
 ```
 
 It will print out 4-digits gCode and prompt for OTP input. Use the Android demo client to generate OTP and enter here.
+
+```
+C:\hippo-license-demo-win32\HippoLicense\Debug>DemoApp.exe
+Your gCode is: 2473
+Please enter OTP: 630354
+License count: 12
+```
 
 ## Integration
 
