@@ -10,7 +10,9 @@ Please contact HippoSecurity support to obtain your copy of the shared library: 
 
 ## Build and run the demo
 
-Open the demo project in your Visual Studio 2017, copy `hippo-lib.dll` into the `HippoLicense\Debug` folder.
+Open the demo project in your Visual Studio 2017, build the whole project and `DemoApp.exe` should be generated in `HippoLicense\Debug\` folder.
+
+Copy `hippo-lib.dll` into the same folder and run the executable:
 
 ```
 C:\hippo-license-demo-win32\HippoLicense\Debug>DemoApp.exe
@@ -18,6 +20,8 @@ Your gCode is: 2473
 Please enter OTP: 630354
 License count: 12
 ```
+
+It will print out 4-digits gCode and prompt for OTP input. Use the Android demo client to generate OTP and enter here.
 
 ## Integration
 
